@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+
+/*reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*fin reseteo*/
+
+/*estilos body*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige; 
+    height: 100vh; 
+}
+
+.grid__container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+
+.header {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+    text-align: center; 
+    position: sticky;
+    margin-top: 0;
+    width: 100%;
+}
+
+/*para celular*/
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 0;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 1rem; 
+    font-family:'Roboto', sans-serif;
+    color:rgb(14, 56, 14);
+    align-self: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.header__img{
+    width: 50%; 
+}
+
+main{
+    grid-column: 1 / span 3;
+    grid-row: 2 / span 1;
+    text-align: center; 
+    position: sticky;
+    margin-top: 0;
+    width: 100%;
+}
+
+h1{
+   color: rgb(14, 56, 14);
+   font-style: normal;
+   font-weight: bolder;
+   font-size: 2rem;
+   text-align: center;
+   text-transform: uppercase;
+   background-color: rgb(212, 237, 49);
+   padding-top: 2%;
+   padding-bottom: 2%;
+}
+
+.sec__ppal{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+    
+}
+div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    }
+
+.sec__ppal__h2{
+    color: rgb(14, 56, 14);
+   font-style: normal;
+   font-weight: bolder;
+   font-size: 1.5rem;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.sec__ppal__p{
+width: 90%;
+font-weight: bold;
+font-size: 1rem;
+line-height: 1.6;
+text-align: center;
+padding: 1rem;
+}
+
+.sec__ppal__img{
+    width: 90%;
+    object-fit: cover;
+}
+
+.sec__ppal iframe{
+    width: 100%;
+}
+
+footer{
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 1;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    border-top: solid 1px black;
+    
+}
+footer a{
+    text-decoration: none;  
+    margin: 2%;   
+}
+
+
+/*estilos index para desktop*/
+@media only screen and (min-width: 1024px){
+    .header {
+        text-align: center; 
+        position: sticky;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .header__img{
+        width: 25%; 
+    }
+    ul{
+        flex-direction: row;
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 0;
+    }
+    
+    ul li{
+        display: inline-block; 
+        width: 20%; 
+        position: relative;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .sec__ppal__h2{
+       font-size: 30px;
+    }
+
+    div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .sec__ppal__p{
+        width: 40%;
+        text-align: left;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .sec__ppal__img{
+        width: 40%;
+        object-fit: cover;
+    }
+    .sec__ppal iframe{
+        width: 560px;
+    }   
+}
+
+/*estilos de página "Boutique"*/
+
+.sec__segunda{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;   
+ 
+}
+
+.sec__segunda__h3{
+    color: rgb(14, 56, 14);
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sec__segunda__lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2%;
+       
+}
+
+h4{
+    font-size: 20px;
+    padding-left: 1px;
+    margin-left: 1px;
+    margin-top: 4%;
+}
+
+.sec__segunda__lista__sub{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin: 1px;
+    padding: 3%;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.sec__info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.sec__info__card{
+    font-weight: bolder;
+}
+
+/* estilos de Contaco*/
+.sec__ppal__form{
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #4F772D;
+}
+
+    /*estilo form para desktop*/
+@media only screen and (min-width: 1024px) {
+    .sec__ppal__form{
+        width: 50%;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        background-color: #4F772D;
+    }
+    
+}
+    /*fin estilo form para desktop*/
+
+
+
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+    margin-top: 4%;
+
+}
+
+input{
+    height: 3rem;
+    margin: 1px;
+}
+
+select{
+    height: 3rem;
+    margin: 1px;
+}
+option{
+    font-size: 1rem;
+}
+
+.sec__ppal__form__card{
+    width: 80%;
+    font-size: 1rem;
+}
+
+.men{
+    height: 200px;
+   
+}
+
+.sec__segunda__lista__sub__card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec__segunda__lista__sub__card div{
+    display: flex;
+    flex-direction: column;
+}
