@@ -55,6 +55,8 @@ ul li a{
     padding-left: 5%;
 }
 
+ul li a:hover{background-color: #96c46d;}
+
 .header__img{
     width: 50%; 
 }
@@ -142,6 +144,17 @@ footer a{
     text-decoration: none;  
     margin: 2%;   
 }
+
+.fa-facebook{
+color: #3B5998;
+font-size: 2rem;
+}
+
+.fa-instagram{
+    font-size: 2rem;
+    color: rgb(193, 53, 132);
+}
+
 
 
 /*estilos index para desktop*/
