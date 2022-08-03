@@ -144,6 +144,151 @@ footer a{
 }
 
 
+
+
+/*estilos de página "Boutique"*/
+
+.sec__segunda{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;   
+ 
+}
+
+.sec__segunda__h3{
+    color: rgb(14, 56, 14);
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sec__segunda__lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2%;
+       
+}
+
+h4{
+    font-size: 20px;
+    padding-left: 1px;
+    margin-left: 1px;
+    margin-top: 4%;
+}
+
+.sec__segunda__lista__sub{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin: 1px;
+    padding: 3%;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.sec__info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.sec__info__card{
+    font-weight: bolder;
+}
+
+/* estilos de Contaco*/
+.sec__ppal__form{
+    width: 100%;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #4F772D;
+}
+
+
+
+
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1%;
+    margin-top: 4%;
+
+}
+
+input{
+    height: 3rem;
+    margin: 1px;
+}
+
+select{
+    height: 3rem;
+    margin: 1px;
+}
+option{
+    font-size: 1rem;
+}
+
+.sec__ppal__form__card{
+    width: 80%;
+    font-size: 1rem;
+}
+
+.men{
+    height: 200px;
+   
+}
+
+.sec__segunda__lista__sub__card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec__segunda__lista__sub__card div{
+    display: flex;
+    flex-direction: column;
+}
+
+/*estilos galeria página eventos*/
+.galeria{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100 px 100px;
+}
+
+.galeria__img{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.galeria__img a{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.galeria__img b{
+    grid-column: 3;
+    grid-row: 1/3;
+
+}
+
 /*estilos  para desktop*/
 @media only screen and (min-width: 1024px){
     .header {
@@ -233,166 +378,22 @@ footer a{
       .galeria div img{
           width: 100%;
       }
-}
+    /*fin estilos desktop pagina evetos*/
 
-/*estilos de página "Boutique"*/
-
-.sec__segunda{
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 6%;
-    padding-bottom: 6%;   
- 
-}
-
-.sec__segunda__h3{
-    color: rgb(14, 56, 14);
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.sec__segunda__lista{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 2%;
-       
-}
-
-h4{
-    font-size: 20px;
-    padding-left: 1px;
-    margin-left: 1px;
-    margin-top: 4%;
-}
-
-.sec__segunda__lista__sub{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-    margin: 1px;
-    padding: 3%;
-    justify-content: space-around;
-    padding: 1%;
-}
-
-.sec__info{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 2%;
-}
-
-.sec__info__card{
-    font-weight: bolder;
-}
-
-/* estilos de Contaco*/
-.sec__ppal__form{
-    width: 100%;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 6%;
-    padding-bottom: 6%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
-    background-color: #4F772D;
-}
-
-    /*estilo form para desktop*/
-@media only screen and (min-width: 1024px) {
-    .sec__ppal__form{
-        width: 50%;
-        margin: auto;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 6%;
-        padding-right: 6%;
-        padding-top: 6%;
-        padding-bottom: 6%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;  
-        background-color: #4F772D;
-    }
-    
-}
+    /*estilos desktop pagina contacto*/
+        .sec__ppal__form{
+            width: 50%;
+            margin: auto;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 6%;
+            padding-right: 6%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            background-color: #4F772D;
+        }
     /*fin estilo form para desktop*/
-
-
-
-label{
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 1%;
-    margin-top: 4%;
-
-}
-
-input{
-    height: 3rem;
-    margin: 1px;
-}
-
-select{
-    height: 3rem;
-    margin: 1px;
-}
-option{
-    font-size: 1rem;
-}
-
-.sec__ppal__form__card{
-    width: 80%;
-    font-size: 1rem;
-}
-
-.men{
-    height: 200px;
-   
-}
-
-.sec__segunda__lista__sub__card{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sec__segunda__lista__sub__card div{
-    display: flex;
-    flex-direction: column;
-}
-
-/*estilos galeria página eventos*/
-.galeria{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 100px 100 px 100px;
-}
-
-.galeria__img{
-    border-radius: 5px;
-    padding: 20px;
-}
-
-.galeria__img a{
-    grid-column: 1/3;
-    grid-row: 1;
-}
-
-.galeria__img b{
-    grid-column: 3;
-    grid-row: 1/3;
-
 }
