@@ -144,7 +144,7 @@ footer a{
 }
 
 
-/*estilos index para desktop*/
+/*estilos  para desktop*/
 @media only screen and (min-width: 1024px){
     .header {
         text-align: center; 
@@ -196,6 +196,43 @@ footer a{
     .sec__ppal iframe{
         width: 560px;
     }   
+
+    /*estilos galeria pagina eventos desktop*/
+    sec__ppal__pEventos{
+        width: 100%;
+    }
+
+    .item1 { grid-area: foto1; }
+    .item2 { grid-area: foto2; }
+    .item3 { grid-area: foto3; }
+    .item4 { grid-area: foto4; }
+    .item5 { grid-area: foto5; }
+    .item6 { grid-area: foto6; }
+    .item7 { grid-area: foto7; }
+
+    .galeria {
+        display: grid;
+        grid-template:
+        'foto1 foto1 foto2 foto2'
+        'foto3 foto3 foto2 foto2'
+        'foto3 foto3 foto4 foto4'
+        'foto5 foto5 foto6 foto6'
+        'foto5 foto5 foto7 foto7';
+        grid-gap: 10px;
+        background-color: rgb(212, 237, 49); 
+        padding: 10px;
+    }
+
+    .galeria > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+      
+      .galeria div img{
+          width: 100%;
+      }
 }
 
 /*estilos de página "Boutique"*/
@@ -335,4 +372,27 @@ option{
 .sec__segunda__lista__sub__card div{
     display: flex;
     flex-direction: column;
+}
+
+/*estilos galeria página eventos*/
+.galeria{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100 px 100px;
+}
+
+.galeria__img{
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.galeria__img a{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.galeria__img b{
+    grid-column: 3;
+    grid-row: 1/3;
+
 }
