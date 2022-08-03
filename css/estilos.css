@@ -14,11 +14,19 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: beige; 
-    height: 100vh; 
+    min-height: 100vh; 
+    margin: 0;
+    margin-bottom: 40px;
 }
+
+main{
+    padding-bottom: 2.5rem;
+}
+
 
 .grid__container{
     width: 100%;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
@@ -66,6 +74,8 @@ main{
     position: sticky;
     margin-top: 0;
     width: 100%;
+    min-height: 100vh;
+    padding-bottom: 90px;
 }
 
 h1{
@@ -134,6 +144,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 90px;
     text-align: left;
     border-top: solid 1px black;
     
@@ -268,25 +279,20 @@ option{
 
 /*estilos galeria página eventos*/
 .galeria{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 100px 100 px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(212, 237, 49); 
+}
+.galeria div{
+    width: 96%;
+    margin: 2%;
 }
 
-.galeria__img{
-    border-radius: 5px;
-    padding: 20px;
-}
 
-.galeria__img a{
-    grid-column: 1/3;
-    grid-row: 1;
-}
 
-.galeria__img b{
-    grid-column: 3;
-    grid-row: 1/3;
-
+.galeria div img{
+    width: 100%;
 }
 
 /*estilos  para desktop*/
@@ -363,22 +369,19 @@ option{
         'foto3 foto3 foto4 foto4'
         'foto5 foto5 foto6 foto6'
         'foto5 foto5 foto7 foto7';
-        grid-gap: 10px;
+        grid-gap: 2px;
         background-color: rgb(212, 237, 49); 
-        padding: 10px;
     }
 
     .galeria > div {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgb(212, 237, 49)
         text-align: center;
-        padding: 20px 0;
-        font-size: 30px;
       }
       
       .galeria div img{
           width: 100%;
       }
-    /*fin estilos desktop pagina evetos*/
+    /*fin estilos desktop pagina eventos*/
 
     /*estilos desktop pagina contacto*/
         .sec__ppal__form{
@@ -395,5 +398,5 @@ option{
             align-items: center;  
             background-color: #4F772D;
         }
-    /*fin estilo form para desktop*/
+    /*fin estilos form para desktop*/
 }
