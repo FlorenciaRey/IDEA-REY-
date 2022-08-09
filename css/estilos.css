@@ -298,26 +298,31 @@ fieldset {
 
 /* estilos boutique*/
 
-.sec__ppal__form__card{
-    width: 80%;
+
+
+
+h5{
+    color: black;
     font-size: 1rem;
 }
 
-.men{
-    height: 200px;
-   
+.div__carousel{
+    width: 50% !important;
 }
 
-.sec__segunda__lista__sub__card{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sec__segunda__lista__sub__card div{
+.flor{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.flor__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /*estilos index para desktop*/
@@ -394,6 +399,10 @@ fieldset {
     .sec__ppal iframe{
         width: 560px;
     } 
+
+    .flor{
+        flex-direction: row;
+    }
 
 }  
 

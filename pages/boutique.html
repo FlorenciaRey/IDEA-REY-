@@ -60,7 +60,7 @@
         <!-- Inicio sección principal-->
         <section class="sec__ppal">
             <h2 class="sec__ppal__h2">Nora Rey Boutique</h2>
-            <div>
+            <div class="sec__ppal__div">
                 <p class="sec__ppal__p">En nuestra boutique elaboramos diariamente una variedad de productos para que puedas disfrutarlos en la comodidad de tu casa.
                     Contamos con productos frescos como postres, tartas, empanadas, copetín y nuestra reconocida sección de congelados que son una solución a la hora de almorzar o cenar en familia o con amigos.
                     TE CONVERTIMOS EN EL MEJOR CHEF Y ANFITRIÓN.</p> 
@@ -68,88 +68,90 @@
                 </div>
         </section>
         <!-- fin seccion principal-->
-
-         <!-- inicio seccion menu-->
-        <section class="sec__segunda">
-            <h3 class="sec__segunda__h3">Menú</h3>
-
-            <div class="sec__segunda__lista">
-                <h4>Copetín</h4>
-                <section class="sec__segunda__lista__sub__card">
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Dip de remolacha</p>
-                        <p class="sec__segunda__lista__sub__item">Quesito de untar de hierbas</p>
-                        <p class="sec__segunda__lista__sub__item">Quesito de untar de hierbas</p>
-                    </div>
-                    <div>
-                    <p class="sec__segunda__lista__sub__item">Quesito de untar de nuez</p>
-                    <p class="sec__segunda__lista__sub__item">Quesito de untar de pimienta</p>
-                    <p class="sec__segunda__lista__sub__item">Hoummus</p>
-                    </div>
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Paté de foie</p>
-                        <p class="sec__segunda__lista__sub__item">Paté de salmón</p>
-                        <p class="sec__segunda__lista__sub__item">Dip de zanahoria</p>
-                    </div>
-                </section>
-
-                <h4>Tartas</h4>
-                <section class="sec__segunda__lista__sub__card">
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Tarta de jamón y queso</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de espinaca y ricota</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de calabaza y panceta</p>
-                    </div>
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Tarta capresse</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de zapallitos</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de puerros</p>
-                    </div>
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Tarta integral de atún</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta integral de puerros</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta ratatouille</p>
-                    </div>
-                </section>
-                
-                <h4>Congelados</h4>
-                    <section class="sec__segunda__lista__sub__card">
-                        <div>
-                            <p class="sec__segunda__lista__sub__item">Lasagnas de carne</p>
-                            <p class="sec__segunda__lista__sub__item">Lasagnas de pollo</p>
-                            <p class="sec__segunda__lista__sub__item">Lasagnas de vegetales</p>
+        
+        <!-- inicio seccion menu-->
+        <section class="productos">
+            <h3>Menú</h3>
+            <div class="flor">
+                <div class="flor__div">
+                    <h4>Copetín</h4>
+                    <div id="carouselExampleCaptions" class="carousel div__carousel" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                        <div>
-                            <p class="sec__segunda__lista__sub__item">Carne a la pimienta</p>
-                            <p class="sec__segunda__lista__sub__item">Pollo chino con almendras</p>
-                            <p class="sec__segunda__lista__sub__item">Pollo a la crema</p>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../images/patedefoie.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Paté de foie</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../images/dipRemolacha.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Dip de remolacha</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../images/hummus.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Hummus</h5>
+                            </div>
+                          </div>
                         </div>
-                        <div>
-                            <p class="sec__segunda__lista__sub__item">Canelones de carne</p>
-                            <p class="sec__segunda__lista__sub__item">Canelones de jamón y choclo</p>
-                            <p class="sec__segunda__lista__sub__item">Canelones de verdura</p>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                <div class="flor__div">
+                    <h4>Congelados</h4>
+                    <div id="carouselExampleCaptions" class="carousel div__carousel" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                    </section>
-            
-                <h4>Postres</h4>
-                <section class="sec__segunda__lista__sub__card">
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Torta Rogel</p>
-                        <p class="sec__segunda__lista__sub__item">Cheesecake</p>
-                        <p class="sec__segunda__lista__sub__item">Corteza de café</p>
-                    </div>
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Lemon Tart</p>
-                        <p class="sec__segunda__lista__sub__item">Lemon tart con merengue</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de manzana</p>
-                    </div>
-                    <div>
-                        <p class="sec__segunda__lista__sub__item">Crumble de frutos rojos</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de frutillas y maracuyá</p>
-                        <p class="sec__segunda__lista__sub__item">Tarta de frutas variadas</p>
-                    </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../images/canelonesdecarne.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Canelones de carne</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../images/cerdoagridulce.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Cerdo agridulce</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../images/rotolos.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Rótolos de espinacay ricota</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
             </div>
-             
+            
+
         </section>
         <!-- fin seccion menu-->
 
