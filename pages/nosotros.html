@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="../images/faviconnora.png">
     <script src="https://kit.fontawesome.com/8635939cae.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -15,25 +16,43 @@
 
  <!-- Inicio del body-->
 <body>
-    <div class="grid__container">
-        <header class="header">
-            <a href="../index.html"><img class="header__img" src="../images/logonora.png" alt="Logo Nora Rey"></a>
-            
-            <!-- Inicio menu de navegación -->
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="./eventos.html">Eventos</a></li>
-                    <li><a href="./boutique.html">Boutique</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-    
-                </ul>
+    <!-- Inicio del header-->
+    <header>
+        <div class="container-fluid header">
+            <nav class="navbar  navbar-expand-lg navbar-dark text-light header__nav">
+                <div class="container-fluid header__div">
+                  <a class="navbar-brand" href="#"><img  class ="w-50" src="../images/logonora.png" alt="Logo Nora Rey"></a>
+                  <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon boton__hamb"></span>
+                  </button>
+                  <div class="collapse navbar-collapse header__nav__collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 header__nav__collapse__ul">
+                            <li class="nav-item header__nav__collapse__ul__li">
+                                <a class="nav-link active paginas" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item header__nav__collapse__ul__li">
+                                <a class="nav-link paginas" href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item header__nav__collapse__ul__li">
+                                <a class="nav-link paginas" href="../pages/eventos.html">Eventos</a>
+                            </li>
+                            <li class="nav-item header__nav__collapse__ul__li">
+                                <a class="nav-link paginas" href="#">Boutique</a>
+                            </li>
+                            <li class="nav-item header__nav__collapse__ul__li">
+                                <a class="nav-link paginas" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                     
+                        </ul>
+                    </div>
+                </div>
             </nav>
-            <!-- Fin menu de navegación -->
-        </header>
-    
-        <!-- Inicio main-->
+        </div>
+        <!-- Fin menu de navegación -->
+    </header>
+    <!-- fin del header -->
+        
+    <!-- Inicio main-->
         <main>
             <h1>Quienes somos</h1>
     
@@ -60,7 +79,7 @@
             <p>Todos los derechos reservados</p>
         </footer>
         <!-- termina footer -->
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 <!-- fin del body-->
