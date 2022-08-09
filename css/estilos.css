@@ -201,12 +201,9 @@ h4{
 /*estilos para form hecho con bs*/
 
 * {
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
 	text-rendering:optimizeLegibility;
 }
 
