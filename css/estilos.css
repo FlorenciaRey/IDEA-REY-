@@ -152,32 +152,20 @@ h4{
     margin-top: 4%;
 }
 
-
-h5{
-    color: black;
-    font-size: 1rem;
+.sec__segunda{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
-
-.div__carousel{
-    width: 50% !important;
+.sec__segunda__h3{
+    color: rgb(14, 56, 14);
+    
 }
-
-.flor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.flor__div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .sec__info{
     display: flex;
     flex-wrap: wrap;
