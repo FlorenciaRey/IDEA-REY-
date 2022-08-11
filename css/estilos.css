@@ -16,6 +16,7 @@ body{
     height: 100vh; 
 }
 
+/* inicio estilos nav bar*/
 .header {
     background-color: beige;
     text-align: center; 
@@ -43,7 +44,9 @@ body{
     color: rgb(14, 56, 14) !important;
     align-self: left;   
 }
+/*fin estilos nav bar*/
 
+/*inicio estilos main - seccion principal index, nosotros, eventos y boutique*/
 main{
     text-align: center; 
     position: sticky;
@@ -76,6 +79,7 @@ h1{
 }
 
 .sec__ppal__div{
+    display: flex;
     flex-direction: column;
 }
 
@@ -105,7 +109,7 @@ padding: 1rem;
 .sec__ppal iframe{
     width: 100%;
 }
-
+/*inicio estilos footer*/
 footer{
     position: relative;
     left: 0;
@@ -137,37 +141,9 @@ font-size: 2rem;
 .a__instagram{
     font-size: 3rem;
 }
-
+/*fin estilos footer*/
 
 /*estilos de página "Boutique"*/
-
-.sec__segunda{
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 6%;
-    padding-bottom: 6%;   
- 
-}
-
-.sec__segunda__h3{
-    color: rgb(14, 56, 14);
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.sec__segunda__lista{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 2%;
-       
-}
 
 h4{
     font-size: 20px;
@@ -176,14 +152,30 @@ h4{
     margin-top: 4%;
 }
 
-.sec__segunda__lista__sub{
+
+h5{
+    color: black;
+    font-size: 1rem;
+}
+
+
+.div__carousel{
+    width: 50% !important;
+}
+
+.flor{
     display: flex;
-    flex-wrap: wrap;
-    font-size: 12px;
-    margin: 1px;
-    padding: 3%;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
-    padding: 1%;
+
+}
+
+.flor__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sec__info{
@@ -196,6 +188,8 @@ h4{
 .sec__info__card{
     font-weight: bolder;
 }
+
+
 
 /* estilos de Contaco*/
 /*estilos para form hecho con bs*/
@@ -296,36 +290,8 @@ fieldset {
  color:#888;
 }
 
-/* estilos boutique*/
 
-
-
-
-h5{
-    color: black;
-    font-size: 1rem;
-}
-
-.div__carousel{
-    width: 50% !important;
-}
-
-.flor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.flor__div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/*estilos index para desktop*/
+/*estilos para desktop*/
 @media only screen and (min-width: 1024px){
     .header {
         text-align: center; 
@@ -397,7 +363,7 @@ h5{
         object-fit: cover;
     }
     .sec__ppal iframe{
-        width: 560px;
+        width: 50%;
     } 
 
     .flor{
