@@ -164,7 +164,7 @@ h4{
 
 .sec__segunda__h3{
     color: rgb(14, 56, 14);
-    
+
 }
 .sec__info{
     display: flex;
@@ -277,7 +277,7 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
+/*fin estilos página contacto*/
 
 /*estilos para desktop*/
 @media only screen and (min-width: 1024px){
@@ -353,10 +353,6 @@ fieldset {
     .sec__ppal iframe{
         width: 50%;
     } 
-
-    .flor{
-        flex-direction: row;
-    }
 
 }  
 
