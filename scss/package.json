@@ -1,0 +1,21 @@
+{
+  "name": "desafiosass",
+  "version": "1.0.0",
+  "description": "desafio sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilosdos.scss css/estilosdos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorenciaRey/IDEA-REY-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorenciaRey/IDEA-REY-/issues"
+  },
+  "homepage": "https://github.com/FlorenciaRey/IDEA-REY-#readme"
+}
