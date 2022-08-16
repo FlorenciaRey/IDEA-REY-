@@ -9,7 +9,6 @@
 }
 
 /*fin reseteo*/
-/*estilos mobile*/
 body {
   font-family: "Poppins", sans-serif;
   background-color: beige;
@@ -59,7 +58,7 @@ main {
 h1 {
   width: 100%;
   margin: auto;
-  color: rgb(14, 56, 14);
+  color: rgb;
   font-style: normal;
   font-weight: bolder;
   font-size: 1.8rem;
@@ -176,7 +175,7 @@ h4 {
 }
 
 /* estilos de Contaco*/
-/*estilos para form hecho con bs*/
+/*estilos para form*/
 * {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
