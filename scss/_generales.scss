@@ -12,6 +12,8 @@
 /*fin reseteo*/
 
 
+
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: $color-fondo; 
@@ -56,10 +58,10 @@ main{
     width: 100%;
 }
 
-h1{
+.h1{
     width: 100%;
     margin: auto;
-    color: rgb;
+    color: $verdenora;
     font-style: normal;
     font-weight: bolder;
     font-size: 1.8rem;
@@ -79,16 +81,13 @@ h1{
     padding-top: 4%;
     padding-bottom: 4%;  
         &__div{
-            display: flex;
-            flex-direction: column;
+           @include flex-direction-center(column);
         }
         &__h2{
-            color: $verdenora;
-            font-style: normal;
-            font-weight: bolder;
+            @extend .h1;
             font-size: 1.5rem;
-            text-align: center;
-            text-transform: uppercase;
+            background-color: $color-fondo;
+            
         }
         &__p{
             width: 90%;
@@ -125,13 +124,13 @@ footer a{
 }
 
 .fa-facebook{
-color: #3B5998;
+color: map-get($redes, face);
 font-size: 2rem;
 }
 
 .fa-instagram{
     font-size: 2rem;
-    color: rgb(193, 53, 132);
+    color: map-get($redes, insta);
 }
 
 .a__facebook{

@@ -55,10 +55,10 @@ main {
   width: 100%;
 }
 
-h1 {
+.h1, .sec__ppal__h2 {
   width: 100%;
   margin: auto;
-  color: rgb;
+  color: rgb(14, 56, 14);
   font-style: normal;
   font-weight: bolder;
   font-size: 1.8rem;
@@ -81,14 +81,11 @@ h1 {
 .sec__ppal__div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .sec__ppal__h2 {
-  color: rgb(14, 56, 14);
-  font-style: normal;
-  font-weight: bolder;
   font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
+  background-color: beige;
 }
 .sec__ppal__p {
   width: 90%;
@@ -129,7 +126,7 @@ footer a {
 
 .fa-instagram {
   font-size: 2rem;
-  color: rgb(193, 53, 132);
+  color: rgb(193, 51, 132);
 }
 
 .a__facebook {
@@ -317,7 +314,7 @@ fieldset {
     color: rgb(14, 56, 14) !important;
     background-color: beige;
   }
-  h1 {
+  .h1, .sec__ppal__h2 {
     font-size: 40px;
   }
   .sec__ppal__h2 {
