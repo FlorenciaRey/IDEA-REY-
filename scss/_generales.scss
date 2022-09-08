@@ -81,7 +81,7 @@ main{
     padding-top: 4%;
     padding-bottom: 4%;  
         &__div{
-           @include flex-direction-center(column);
+           @include flex-direction(column);
         }
         &__h2{
             @extend .h1;

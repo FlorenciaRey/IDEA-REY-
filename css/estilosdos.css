@@ -81,7 +81,6 @@ main {
 .sec__ppal__div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .sec__ppal__h2 {
   font-size: 1.5rem;
@@ -328,8 +327,7 @@ fieldset {
     align-items: flex-start !important;
   }
   .sec__ppal__p {
-    width: 40%;
-    text-align: left;
+    width: 100%;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -340,5 +338,11 @@ fieldset {
   }
   .sec__ppal iframe {
     width: 50%;
+  }
+  .galeria {
+    width: 80%;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto;
   }
 }/*# sourceMappingURL=estilosdos.css.map */
