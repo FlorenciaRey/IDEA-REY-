@@ -33,12 +33,9 @@
         }
 
     }
-
     .paginas{
         color: rgb(14, 56, 14) !important;
-        background-color: beige;
-
-       
+        background-color: beige;  
     }
     .h1{
         font-size: 40px;
@@ -46,15 +43,12 @@
     .sec__ppal__h2{
        font-size: 30px;
     }
-
     .sec__ppal__div{
         width: 100%;
         @include flex-direction(row);
         flex-wrap: wrap;
         align-items: flex-start !important;
     }
-
-
     .sec__ppal__p{
         width: 100%;
         padding-left: 2%;
@@ -67,7 +61,6 @@
     .sec__ppal iframe{
         width: 50%;
     } 
-
     .galeria{
         width: 80%;
         justify-content: center !important;
